@@ -11,7 +11,7 @@ def load_model():
 def dig_page():
     st.header("Dig Page")
     st.subheader("Lidar Surface Image")
-    lidar_image = st.image("dragline.png", caption="Bucket current status", use_column_width=True)
+    lidar_image = st.image("drag_line.png", caption="Bucket current status", use_column_width=True)
 
     st.subheader("Digging Parameters")
 
